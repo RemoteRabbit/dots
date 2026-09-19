@@ -7,8 +7,10 @@ dotfiles.root = "~/Projects/dots"
 [bootstrap.repos]
 "~/Projects/nvim" = { url = "https://github.com/remoterabbit/nvim", ref = "main" }
 "~/Projects/dots" = { url = "https://github.com/remoterabbit/dots", ref = "main" }
+"~/repos/personal/zsh" = { url = "https://github.com/remoterabbit/zsh" }
 
 [dotfiles]
-"~/.config/nvim" = { source = "~/Projects/nvim", mode = "symlink"}
-"~/.dots" = "~/Projects/dots"
+"~/.config/nvim" = { source = "~/Projects/nvim", mode = "symlink" }
+"~/.config/zsh" = { source = "~/repos/personal/zsh", mode = "symlink" }
+"~/.zshenv" = { source = "~/repos/personal/zsh/.zshenv", mode = "symlink" }
 "~/.config/mise/config.toml" = "~/Projects/dots/config.toml"
