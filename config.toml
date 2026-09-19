@@ -10,4 +10,5 @@ dotfiles.root = "~/Projects/dots"
 
 [dotfiles]
 "~/.config/nvim" = { source = "~/Projects/nvim", mode = "symlink"}
+"~/.dots" = "~/Projects/dots"
 "~/.config/mise/config.toml" = "~/Projects/dots/config.toml"
