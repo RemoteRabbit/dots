@@ -2,7 +2,6 @@
 auto_install = true
 legacy_version_file = true
 not_found_system_fallback = true
-dotfiles.root = "~/Projects/dots"
 
 [bootstrap.repos]
 "~/Projects/nvim" = { url = "https://github.com/remoterabbit/nvim", ref = "main" }
