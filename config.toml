@@ -13,3 +13,25 @@ not_found_system_fallback = true
 "~/.config/zsh" = { source = "~/repos/personal/zsh", mode = "symlink" }
 "~/.zshenv" = { source = "~/repos/personal/zsh/.zshenv", mode = "symlink" }
 "~/.config/mise/config.toml" = "~/Projects/dots/config.toml"
+
+[bootstrap.macos.dock]
+autohide = true
+orientation = "bottom"
+tilesize = 48
+show_recents = false
+
+[bootstrap.macos.finder]
+show_all_files = true
+show_pathbar = true
+preferred_view_style = "list"
+
+[bootstrap.macos.keyboard]
+key_repeat = 2
+initial_key_repeat = 15
+press_and_hold = false
+
+[bootstrap.macos.trackpad]
+tap_to_click = true
+
+[bootstrap.macos.defaults]
+"com.apple.finder" = { AppleShowAllFiles = false }
