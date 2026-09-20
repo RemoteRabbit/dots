@@ -34,4 +34,36 @@ press_and_hold = false
 tap_to_click = true
 
 [bootstrap.macos.defaults]
-"com.apple.finder" = { AppleShowAllFiles = false }
+"com.apple.finder" = { AppleShowAllFiles = true }
+
+[bootstrap.packages]
+# Arch
+"pacman:zsh" = "latest"
+"pacman:neovim" = "latest"
+"pacman:eza" = "latest"
+"pacman:bat" = "latest"
+"pacman:git-delta" = "latest"
+"pacman:ripgrep" = "latest"
+"pacman:fd" = "latest"
+"pacman:fzf" = "latest"
+"pacman:starship" = "latest"
+"pacman:zoxide" = "latest"
+"pacman:atuin" = "latest"
+"pacman:direnv" = "latest"
+"pacman:shellcheck" = "latest"
+
+# macOS
+"brew:zsh" = { os = "macos" }
+"brew:neovim" = { os = "macos" }
+"brew:eza" = { os = "macos" }
+"brew:bat" = { os = "macos" }
+"brew:git-delta" = { os = "macos" }
+"brew:ripgrep" = { os = "macos" }
+"brew:fd" = { os = "macos" }
+"brew:fzf" = { os = "macos" }
+"brew:starship" = { os = "macos" }
+"brew:zoxide" = { os = "macos" }
+"brew:atuin" = { os = "macos" }
+"brew:direnv" = { os = "macos" }
+"brew:shellcheck" = { os = "macos" }
+"brew:detect-secrets" = { os = "macos" }
